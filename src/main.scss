@@ -1,0 +1,74 @@
+//global css
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  color: black;
+}
+
+#root,
+body,
+html,
+main {
+  height: 100%;
+}
+
+.App {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.5s;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background: none;
+  outline: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+//body css
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 10vw;
+  background-color: #2196f3;
+  h1 {
+    color: white;
+  }
+
+  .create {
+    background-color: #e3f2fd;
+    padding: 12px;
+    border-radius: 4px;
+    color: #2196f3;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
